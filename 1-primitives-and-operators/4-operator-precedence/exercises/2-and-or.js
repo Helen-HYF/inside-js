@@ -13,10 +13,10 @@
 // --- booleans ---
 
 const a = true || (false && true);
-console.assert(a === __, 'a');
+console.assert(a === 0 && 1, 'a');
 
 const b = (true || false) && true;
-console.assert(b === __, 'b');
+console.assert(b === 1, 'b');
 
 const c = true && (false || false) && true;
 console.assert(c === __, 'c');
